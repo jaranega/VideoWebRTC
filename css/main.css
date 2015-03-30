@@ -1,0 +1,167 @@
+/* UTILS */
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* END UTILS */
+
+html,
+body{
+	height: 100%;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	background-color: #438d4c;
+	/*background: url('../img/bg.jpg') left top repeat #000;*/
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+img{
+	display: block;
+}
+
+#wrapper{
+	height: 100%;
+}
+#content{
+	height: 100%;
+}
+#content .section{
+	float: left;
+	height: 100%;
+	width: 100%;
+}
+#content .section.track-section{
+	/*width: 18.57%;*/
+	width: 18.42%;
+	background-color: #86b38c;
+}
+#home-team-section{
+	padding-right: 0.14%;
+}
+#away-team-section{
+	padding-left: 0.14%;
+}
+#content .section.track-section .track-section-inner{
+	position: relative;
+	height: 100%;
+	/*padding: 0 9.68%;*/
+	background-color: #28552e;
+}
+#content .section.track-section .track-section-inner .team-bigtrack{
+	/*padding-top: 6.79%;*/
+	position: absolute;
+	top: 6.79%;
+	left: 11.62%;
+	right: 11.62%;
+	bottom: 9.15%;
+}
+#content .section.track-section .track-section-inner .team-bigtrack .team-flag{
+	margin-bottom: 18px;
+}
+#content .section.track-section .track-section-inner .team-bigtrack .team-flag img{
+	margin: 0 auto;
+}
+#content .section.track-section .track-section-inner .team-bigtrack .team-live-data{
+	padding: 10px 0px;
+	font-family: 'Fjalla One', sans-serif;
+	border-top: 2px solid #86b38c;
+	border-bottom: 2px solid #86b38c;
+	text-align: center;
+}
+#content .section.track-section .track-section-inner .team-bigtrack .team-live-data span{
+	display: block;
+	font-size: 30px;
+	color: #dfdfdf;
+}
+#content .section.track-section .track-section-inner .team-bigtrack .team-live-data .team-goals{
+	display: block;
+	float: left;
+	/*width: 33.83%;*/
+	width: 100%;
+	font-size: 14px;
+	color: #fdf11f;
+	/*border-right: 2px solid #86b38c;*/
+}
+#content .section.track-section .track-section-inner .team-bigtrack .team-live-data .team-total-tweets{
+	display: block;
+	float: right;
+	/*width: 65.15%;*/
+	width: 64%;
+	font-size: 14px;
+	color: #7adbe8;
+}
+#content .section.track-section .track-section-inner .team-bigtrack .feed{
+	padding-top: 20px;
+}
+#content .section.track-section .track-section-inner .team-bigtrack .feed .loading{
+	margin: 50% auto;
+}
+#content .section.track-section .track-section-inner .team-bigtrack .feed iframe{
+	width: auto !important;
+	min-width: 0 !important;
+	height: 100% !important;
+}
+
+#content .section.main-section{
+	width: 62.86%;
+	padding: 10px;
+	background-color: #438d4c;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#content .section.main-section #header{
+	position: relative;
+}
+#content .section.main-section #header #logo-wrc{
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+#content .section.main-section #header #header-nav{
+	position: relative;
+	float: right;
+	z-index: 100;
+}
+#content .section.main-section #header #header-nav ul li{
+	float: left;
+	margin-left: 10px;
+}
+#content .section.main-section #players{
+	position: relative;
+	margin-top: 100px;
+}
+#content .section.main-section #player-race{
+	position: relative;
+	z-index: 10;
+}
+#content .section.main-section #player-score{
+	position: absolute;
+	top: 41%;
+	left: 0;
+	right: 0;
+	width: 20%;
+	margin: 0 auto;
+	z-index: 20;
+} 
+#content .section.main-section #players video{
+	width: 100%;
+	height: auto;
+}
+#content .section.main-section #players #message{
+	padding-top: 15px;
+	text-align: center;
+	color: #dfdfdf;
+}
+
+/*#home-team-section .track-section-inner{
+	width: 99.23%;
+	padding-right: 
+}*/

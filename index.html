@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>World Race Cup</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!-- Google fonts call -->
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+	<!-- end Google fonts call -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<script src="js/socket.io.js"></script>
+	<script src="js/RTCMultiConnection-v1.8.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="content" class="group">
+			<section id="home-team-section" class="section track-section">
+				<div class="track-section-inner">
+					<div id="home-team-bigtrack" class="team-bigtrack">
+						<div class="team-flag">
+							<img src="img/flags/arg.jpg" alt="Argentina">
+						</div>
+						<div class="team-live-data group">
+							<div class="team-goals"><span class="goals">0</span> GOALS</div>
+						</div>
+						<div class="feed"></div>
+					</div>
+					<div id="home-team-smalltrack"></div>
+				</div>
+			</section>
+			<section id="section-contest" class="section main-section">
+				<div class="center">
+					<header id="header" class="group">
+						<img src="img/logo-wrc.png" alt="World Race Cup" id="logo-wrc">
+						<nav id="header-nav">
+							<ul id="right-links" class="group">
+								<li><a href="http://twitter.com/intent/tweet?text=Watching+the+%23WorldRaceCup+by+@Hello__LOLA+in+real-time%3A+the+%23hashflags+are+powering+2+race+cars%21+&url=http%3A//hello-lola.com/raceworldcup/" target="_blank" id="logo-twitter"><img src="img/logo-twitter.png" alt="Twitter"></a></li>
+								<li><a href="http://hello-lola.com/" target="_blank" id="logo-lola"><img src="img/logo-lola.png" alt="Lola"></a></li>
+							</ul>
+						</nav>
+					</header>
+					<nav id="main-nav">
+						
+					</nav>
+					<div id="players">
+						<div id="player-race">
+							
+						</div>
+						<div id="player-score">
+							
+						</div>
+						<div id="message">
+							This project works only on Chrome and Firefox
+                                                </div>
+					</div>
+                                    
+				</div>
+			</section>
+			<section id="away-team-section" class="section track-section">
+				<div class="track-section-inner">
+					<div id="away-team-bigtrack" class="team-bigtrack">
+						<div class="team-flag">
+							<img src="img/flags/arg.jpg" alt="Argentina">
+						</div>
+						<div class="team-live-data group">
+							<div class="team-goals"><span class="goals">0</span> GOALS</div>
+						</div>
+						<div class="feed"></div>
+					</div>
+					<div id="away-team-smalltrack"></div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<script src="js/broadcast_connection.js"></script>
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-52416955-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
